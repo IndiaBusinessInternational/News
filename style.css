@@ -1,0 +1,22 @@
+body {
+  margin: 0px;
+  font-style: italic;
+  font-weight: bold;
+  font-size-adjust: auto;
+}
+.row {
+  background-color: #856c8b;
+  color: white;
+  padding: 10px;
+}
+
+h1 {
+  background-color: #856c8b;
+  color: white;
+  text-align: center;
+  }
+h2 {
+  background-color: #856c8b;
+  color: white;
+  text-align: center;
+}
