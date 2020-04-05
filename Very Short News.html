@@ -12,18 +12,45 @@
 
   <title>News International</title>
   <style media="screen">
-    a {
-      color: white;
-      text-decoration: none;
-    }
+  a {
+    color: white;
+    text-decoration: none;
+  }
 
-    a:hover {
-      color: hotpink;
-    }
-  </style>
+  a:hover {
+    color: hotpink;
+  }
+      body {
+        background: aqua;
+      }
+
+      @media screen and (min-width:576px) {
+        body {
+          background: red;
+        }
+
+        @media screen and (min-width:768px) {
+          body {
+            background: blue;
+          }
+
+          @media screen and (min-width:992px) {
+            body {
+              background: green;
+            }
+
+            @media screen and (min-width:1200px) {
+              body {
+                background: yellow;
+              }
+    </style>
+    
 </head>
 
 <body>
+<!-- container -->
+<div class="container">
+
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
       <h1>News International</h1>
@@ -45,6 +72,8 @@
       <h2><a href="index.html">Back to Previous</a></h2>
     </div>
   </div>
+</div>
+<!-- end of container -->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

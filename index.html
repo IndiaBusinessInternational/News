@@ -11,20 +11,47 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <title>News International</title>
+
   <style media="screen">
-    a {
-      color: white;
-      text-decoration: none;
-    }
+  a {
+    color: white;
+    text-decoration: none;
+  }
 
-    a:hover {
-      color: hotpink;
-    }
+  a:hover {
+    color: hotpink;
+  }
+      body {
+        background: aqua;
+      }
 
-  </style>
+      @media screen and (min-width:576px) {
+        body {
+          background: red;
+        }
+
+        @media screen and (min-width:768px) {
+          body {
+            background: blue;
+          }
+
+          @media screen and (min-width:992px) {
+            body {
+              background: green;
+            }
+
+            @media screen and (min-width:1200px) {
+              body {
+                background: yellow;
+              }
+    </style>
+
 </head>
 
 <body>
+<!-- container -->
+  <div class="container">
+
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
       <h1>News International</h1>
@@ -50,9 +77,11 @@
     <!-- News Agencies Original News -->
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3"><a href="https://www.aninews.in/" target="_blank">ANI News Agency</a></div>
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3"><a href="http://www.ptinews.com/" target="_blank">PTI News Agency</a></div>
-    <!-- US, China & Pakistan -->
+    <!-- US, China, Japan, Pakistan etc -->
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3"><a href="https://edition.cnn.com/?hpt=header_edition-picker" target="_blank">CNN</a></div>
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3"><a href="https://www.cgtn.com/" target="_blank">CGTN China</a></div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3"><a href="https://www3.nhk.or.jp/nhkworld/en/news/" target="_blank">NHK Japan</a></div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3"><a href="https://news.sky.com/" target="_blank">Sky News</a></div>
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3"><a href="https://www.dawn.com/" target="_blank">Dawn Pakistan</a></div>
     <!-- Governtment of India Agencies -->
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3"><a href="https://www.youtube.com/user/rajyasabhatv" target="_blank">RajyaSabha TV News You Tube</a></div>
@@ -77,6 +106,8 @@
       <h2><a href="Very Short News.html">Video News</a></h2>
     </div>
   </div>
+</div>
+<!-- end of container -->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
